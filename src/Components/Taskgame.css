@@ -1,0 +1,188 @@
+ 
+    
+body{ 
+    background-color: #FFBBBB
+    
+  
+} 
+.red {
+    background-color: red;
+
+  }
+  
+  .green {
+    background-color: green;
+  }
+  .game-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  .form-container{
+    border: 1px solid black;
+    width: 500px;
+    height: 450px;
+    margin-left: 500px;
+    border-radius: 15px;
+    font-size: large;
+    margin-top: 30px;
+  }
+  .name{
+     margin-left: 50px;
+     margin-top: 20px;
+  }
+  .email{
+    margin-left: 50px;
+    margin-top: 20px;
+
+  }
+  .mobile{
+    margin-left: 50px;
+    margin-top: 20px;
+
+  }
+  .level{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .name-feild{
+    height: 30px;
+    border-radius: 3px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  .email-feild{
+    height: 30px;
+    border-radius: 3px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 80px;
+
+  }
+  .mobile-feild{
+    height: 30px;
+    border-radius: 3px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+  }
+  .selectlevel{
+    height: 30px;
+    border-radius: 3px;
+    width: 200px;
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 20px;
+
+  }
+  .start-button{
+    margin-left: 170px;
+    border: none;
+    border-radius: 5px;
+    background-color: #11998E;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    margin-top: 60px;
+  } 
+  
+
+@media (max-width: 768px) {
+  .form-container {
+    width: 60%; 
+    height: 95%;
+    margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 50px;
+  }
+  .name,
+  .email,
+  .mobile,
+  .level {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+
+  .name-field,
+  .email-field,
+  .mobile-field,
+  .select-level {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .start-button{
+    width: 120px;
+    height: 35px;
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width:600px) {
+  .form-container {
+    width: 80%; 
+    margin-top: 20px;
+    padding: 10px 10px; 
+  }
+
+  
+  .name,
+  .email{
+    /* margin-top: -50px; */
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+  
+  }
+  
+  .mobile,
+  .level {
+    
+    margin-top: 100px;
+  }
+
+  .name-feild,
+  .email-feild{
+    margin-left: 10px;
+    margin-top: 10px;
+
+
+  }
+  .mobile-feild,
+  .selectlevel {
+    width: 80%; 
+    margin-top: 10px; 
+  }
+
+  .start-button {
+    width: 100px; 
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 70px;
+
+    
+  }
+}
+
+
+
+
+
+
+   
